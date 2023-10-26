@@ -1,0 +1,197 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(BG2.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add spacing between logo and navigation */
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 80px; /* Adjust the size as needed */
+    height: auto;
+    
+}
+
+/* Style for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Style for the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.line{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Navigation menu styles */
+
+
+/* Container for page content */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Page-specific styles */
+.page {
+    padding: 20px;
+}
+
+.page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.page p {
+    font-size: 18px;
+    color: #666;
+}
+.page h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    color: #333;
+}
+
+.page ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #555;
+}
+
+.page li {
+    margin-bottom: 10px;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.featured-cars {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.car {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.car-card {
+    flex: 0 1 calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.car-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+.car-card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.car-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.car-card button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.car-card button:hover {
+    background-color: #555;
+}
+
+/* Your existing CSS styles here */
+
+/* Styles for login and sign-up forms */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
